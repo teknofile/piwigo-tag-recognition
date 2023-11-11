@@ -34,6 +34,8 @@
 
         <input type="hidden" name="api" value="{$apiName}">
         <input type="hidden" name="pwg_token" value="{$PWG_TOKEN}">
+
+        <input type="submit" name="rebuild_subject" class="tr-button-2" value="{'Rebuild Subjects' | translate}">
         <input type="submit" name="save"class="tr-button-2" value="{'Save Settings'|translate}">
         <input type="submit" name="use" class="tr-button-1 {if $TR_API_SELECTED == $apiName}tr-disabled{/if}" value="{'Use this API'|translate}">
     </form>
