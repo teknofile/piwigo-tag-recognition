@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Tag Recognition
-Version: 0.1
+Version: 1
 Description: Use an external API to automatically tag an image
-Plugin URI: 
+Plugin URI: http://piwigo.org/ext/extension_view.php?eid=924
 Author: Zacharie Guet
 Has Settings: true
 */

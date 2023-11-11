@@ -5,9 +5,15 @@ function tr_getAPI($api) : API {
     if (!in_array($api, TR_API_LIST))
         return null;
 
+//    if ($api == 'Azure')
+//	    $ret = new Azure();
+//    if ($api == 'Immaga')
+//	    $ret = new Imagga();
+    //if ($api == 'CompreFace')
+    //	    $ret = new CompreFace();
     $ret = new Imagga();
-
     if ($api == 'Azure') $ret = new Azure();
+    if ($api == 'CompreFace') $ret = new CompreFace();
     
     return $ret;
 }
